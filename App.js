@@ -53,6 +53,7 @@ export default function App() {
     if (curRow > 0) {
       checkGameState();
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [curRow]);
 
   const onKeyPressed = key => {
